@@ -80,7 +80,6 @@ Update content in respective component files:
 1. **Clone the repository**
    ```bash
    git clone <repository-url>
-   cd portfolio-v2
    ```
 
 2. **Install dependencies**
@@ -97,12 +96,6 @@ Update content in respective component files:
    ```bash
    npm run build
    ```
-
-## 📧 Contact Form Setup
-
-1. Sign up at [Web3Forms](https://web3forms.com)
-2. Get your access key
-3. Replace `YOUR_WEB3FORMS_ACCESS_KEY` in `src/components/Contact.jsx`
 
 ## 🎯 Performance
 
@@ -132,4 +125,4 @@ This project is licensed under the MIT License.
 
 ---
 
-**Made with ❤️ by Your Name**
+**Made with ❤️ by Chavindu Shirantha**

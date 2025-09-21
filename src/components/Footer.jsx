@@ -98,15 +98,15 @@ const Footer = () => {
           <div className="footer-contact">
             <h4 className="footer-title">Get In Touch</h4>
             <div className="contact-info">
-              <div className="contact-item">
+              <div className="contact-item-footer">
                 <i className="fas fa-envelope"></i>
                 <a href="mailto:chavindushirantha@gmail.com">chavindushirantha@gmail.com</a>
               </div>
-              <div className="contact-item">
+              <div className="contact-item-footer">
                 <i className="fas fa-phone"></i>
                 <a href="tel:+94704230389">+94 (70) 423-0389</a>
               </div>
-              <div className="contact-item">
+              <div className="contact-item-footer">
                 <i className="fas fa-map-marker-alt"></i>
                 <span>Ambalangoda, Sri Lanka</span>
               </div>

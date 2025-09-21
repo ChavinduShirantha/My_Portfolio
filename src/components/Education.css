@@ -249,7 +249,7 @@
 
   .timeline-item.left .timeline-content,
   .timeline-item.right .timeline-content {
-    width: calc(100% - 80px);
+    width: calc(100% - 20px);
     max-width: none;
     padding-left: 80px;
     padding-right: 1rem;
