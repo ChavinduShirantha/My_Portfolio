@@ -5,8 +5,8 @@ export const SEO_CONFIG = {
     name: 'Chavindu - Portfolio',
     title: 'Chavindu | Full Stack Developer & Web Developer',
     description: 'Experienced Full Stack Developer and Web Develope creating innovative web applications and digital experiences. Specializing in React, Node.js, and modern web technologies.',
-    url: 'https://yourportfolio.com',
-    domain: 'yourportfolio.com',
+    url: 'https://chavindushirantha.github.io/My_Portfolio/',
+    domain: 'chavindushirantha.github.io/My_Portfolio/',
     author: 'Chavindu Shirantha',
     keywords: [
       'Full Stack Developer',
@@ -96,7 +96,7 @@ export const SEO_CONFIG = {
       name: 'Chavindu Shirantha',
       jobTitle: 'Full Stack Developer & Web Developer',
       description: 'Experienced Full Stack Developer and Web Developer creating innovative web applications and digital experiences.',
-      url: 'https://yourportfolio.com',
+      url: 'https://chavindushirantha.github.io/My_Portfolio/',
       email: 'chavindushirantha@gmail.com',
       telephone: '+94-70-4230389',
       address: {
@@ -124,7 +124,7 @@ export const SEO_CONFIG = {
       '@context': 'https://schema.org',
       '@type': 'WebSite',
       name: 'Chavindu Shirantha Portfolio',
-      url: 'https://yourportfolio.com',
+      url: 'https://chavindushirantha.github.io/My_Portfolio/',
       description: 'Professional portfolio showcasing full stack development and UI/UX design work.',
       author: {
         '@type': 'Person',
@@ -132,7 +132,7 @@ export const SEO_CONFIG = {
       },
       potentialAction: {
         '@type': 'SearchAction',
-        target: 'https://yourportfolio.com/search?q={search_term_string}',
+        target: 'https://chavindushirantha.github.io/My_Portfolio//search?q={search_term_string}',
         'query-input': 'required name=search_term_string'
       }
     },
@@ -141,8 +141,8 @@ export const SEO_CONFIG = {
       '@context': 'https://schema.org',
       '@type': 'Organization',
       name: 'Chavindu Shirantha',
-      url: 'https://yourportfolio.com',
-      logo: 'https://yourportfolio.com/images/logo.png',
+      url: 'https://chavindushirantha.github.io/My_Portfolio/',
+      logo: 'https://chavindushirantha.github.io/My_Portfolio/images/logo.png',
       contactPoint: {
         '@type': 'ContactPoint',
         telephone: '+94-70-4230389',
