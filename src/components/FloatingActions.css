@@ -1,0 +1,244 @@
+/* Base styles for floating elements */
+.floating-whatsapp,
+.floating-scroll-top,
+.floating-call {
+  position: fixed;
+  z-index: 1000;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.floating-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.floating-icon::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: inherit;
+  z-index: -1;
+  animation: pulse 2s infinite;
+}
+
+.floating-icon i {
+  font-size: 1.5rem;
+  color: white;
+  z-index: 2;
+}
+
+/* Tooltips */
+.floating-tooltip {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+  z-index: 1001;
+}
+
+.floating-whatsapp {
+  left: 30px;
+  bottom: 90px;
+  animation: slideInLeft 0.5s ease-out;
+}
+
+.whatsapp-icon {
+  background: linear-gradient(135deg, #25d366, #128c7e);
+}
+
+.floating-whatsapp:hover .whatsapp-icon {
+  transform: scale(1.1);
+  box-shadow: 0 8px 30px rgba(37, 211, 102, 0.4);
+}
+
+.call-icon {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+}
+
+.floating-call {
+  right: 30px;
+  bottom: 90px;
+  animation: slideInRight 0.5s ease-out 0.2s both;
+}
+
+.floating-scroll-top {
+  right: 30px;
+  bottom: 20px;
+  animation: slideInRight 0.5s ease-out;
+}
+
+.scroll-icon {
+  background: linear-gradient(135deg, #8b5cf6, #7c3aed);
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes shake {
+  0%, 100% {
+    transform: scale(1.1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.1) rotate(-5deg);
+  }
+  75% {
+    transform: scale(1.1) rotate(5deg);
+  }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+
+.floating-whatsapp,
+.floating-call {
+  animation-name: float;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.floating-call {
+  animation-delay: 1s;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@media (max-width: 768px) {
+  .floating-whatsapp {
+    left: 20px;
+  }
+
+  .floating-scroll-top,
+  .floating-call {
+    right: 20px;
+  }
+
+  .floating-icon {
+    width: 55px;
+    height: 55px;
+  }
+
+  .floating-icon i {
+    font-size: 1.3rem;
+  }
+
+  .floating-tooltip {
+    font-size: 0.8rem;
+    padding: 6px 10px;
+  }
+
+  .floating-whatsapp {
+    bottom: 80px;
+  }
+
+  .floating-call {
+    bottom: 80px;
+  }
+
+  .floating-scroll-top {
+    bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .floating-whatsapp{
+    left: 15px;
+  }
+
+  .floating-scroll-top,
+  .floating-call {
+    right: 15px;
+  }
+
+  .floating-icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .floating-icon i {
+    font-size: 1.2rem;
+  }
+
+  .floating-whatsapp {
+    bottom: 70px;
+  }
+
+  .floating-call {
+    bottom: 70px;
+  }
+
+  .floating-scroll-top {
+    bottom: 10px;
+  }
+}

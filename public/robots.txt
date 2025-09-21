@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://yourportfolio.com/sitemap.xml
+
+# Disallow crawling of development and internal files
+Disallow: /src/
+Disallow: /node_modules/
+Disallow: /.git/
+Disallow: /dist/
+Disallow: /build/
+Disallow: /*.json$
+Disallow: /*.map$
+
+# Allow important files
+Allow: /images/
+Allow: /assets/
+Allow: /favicon.ico
+
+# Crawl delay (optional)
+Crawl-delay: 1
