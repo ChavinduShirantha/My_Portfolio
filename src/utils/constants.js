@@ -19,7 +19,7 @@ export const SOCIAL_LINKS = {
 export const WEBSITE_INFO = {
   title: 'Chavindu - Portfolio',
   description: 'Full Stack Developer & Web Devloper',
-  url: 'https://chavindushirantha.github.io/My_Portfolio/',
+  url: 'https://chavindu-shirantha.web.app/',
   author: 'Chavindu Shirantha'
 };
 

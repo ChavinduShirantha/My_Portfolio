@@ -110,11 +110,11 @@ const Contact = () => {
                 <a href="https://gitlab.com/chavindu.softedgelab" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <i className="fab fa-gitlab"></i>
                 </a>
-                <a href="mailto:chavindushirantha@gmail.com" target="_blank" rel="noopener noreferrer" className="social-icon">
-                  <i className="fas fa-envelope"></i>
-                </a>
                 <a href="https://wa.me/94760196952" target="_blank" rel="noopener noreferrer" className="social-icon">
                   <i className="fab fa-whatsapp"></i>
+                </a>
+                <a href="mailto:chavindushirantha@gmail.com" target="_blank" rel="noopener noreferrer" className="social-icon">
+                  <i className="fas fa-envelope"></i>
                 </a>
               </div>
             </div>
