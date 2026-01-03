@@ -50,3 +50,5 @@ temp/
 
 # Local development
 .eslintcache
+
+.claude/

@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://yourportfolio.com/sitemap.xml
+Sitemap: https://chavindu-shirantha.web.app/sitemap.xml
 
 # Disallow crawling of development and internal files
 Disallow: /src/
