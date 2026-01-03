@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ThemeToggle from './ThemeToggle';
 import './Header.css';
 
 const Header = () => {
@@ -117,6 +118,10 @@ const Header = () => {
               </a>
             </li>
           </ul>
+
+          <div className="header-actions">
+            <ThemeToggle />
+          </div>
         </nav>
 
         <button className="menu-toggle" onClick={toggleMenu}>

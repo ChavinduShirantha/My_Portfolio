@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { HelmetProvider } from 'react-helmet-async';
+import { ThemeProvider } from './contexts/ThemeContext';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -62,9 +63,11 @@ function AppContent() {
 function App() {
   return (
     <HelmetProvider>
-      <LoadingProvider>
-        <AppContent />
-      </LoadingProvider>
+      <ThemeProvider>
+        <LoadingProvider>
+          <AppContent />
+        </LoadingProvider>
+      </ThemeProvider>
     </HelmetProvider>
   );
 }

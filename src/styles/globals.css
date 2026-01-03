@@ -140,6 +140,57 @@
   --color-primary-alpha-30: rgba(37, 99, 235, 0.3);
 }
 
+/* Dark Mode Theme */
+[data-theme="dark"] {
+  /* Dark Mode Color Palette */
+  --color-primary: #60a5fa;
+  --color-primary-dark: #3b82f6;
+  --color-primary-light: #93c5fd;
+  --color-primary-lighter: #bfdbfe;
+  --color-primary-lightest: #dbeafe;
+
+  /* Dark Mode Semantic Colors */
+  --color-background: #0f172a;
+  --color-background-alt: #1e293b;
+  --color-text-primary: #f1f5f9;
+  --color-text-secondary: #cbd5e1;
+  --color-text-muted: #94a3b8;
+  --color-border: #334155;
+  --color-border-light: #1e293b;
+
+  /* Dark Mode Gray Scale */
+  --color-gray-50: #1e293b;
+  --color-gray-100: #334155;
+  --color-gray-200: #475569;
+  --color-gray-300: #64748b;
+  --color-gray-400: #94a3b8;
+  --color-gray-500: #cbd5e1;
+  --color-gray-600: #e2e8f0;
+  --color-gray-700: #f1f5f9;
+  --color-gray-800: #f8fafc;
+  --color-gray-900: #ffffff;
+
+  /* Dark Mode Shadows */
+  --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5);
+
+  /* Dark Mode Primary Shadows */
+  --shadow-primary: 0 4px 12px rgba(96, 165, 250, 0.3);
+  --shadow-primary-hover: 0 6px 20px rgba(96, 165, 250, 0.4);
+  --shadow-primary-button: 0 8px 20px rgba(96, 165, 250, 0.3);
+
+  /* Dark Mode Alpha Colors */
+  --color-primary-alpha-10: rgba(96, 165, 250, 0.1);
+  --color-primary-alpha-20: rgba(96, 165, 250, 0.2);
+  --color-primary-alpha-30: rgba(96, 165, 250, 0.3);
+
+  /* Dark Mode Social Colors (adjusted for dark background) */
+  --color-github: #f0f6fc;
+  --color-gitlab: #ff8866;
+}
+
 /* Global Utilities */
 .sr-only {
   position: absolute;
