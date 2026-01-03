@@ -102,7 +102,7 @@
   gap: 0.75rem;
   margin-bottom: 0.75rem;
   font-size: 0.95rem;
-  color: var(--color-gray-600);
+  color: var(--color-text-secondary);
 }
 
 .service-features i {

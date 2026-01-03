@@ -34,7 +34,7 @@
 
 .hero-description {
   font-size: 1.1rem;
-  color: var(--color-gray-600);
+  color: var(--color-text-secondary);
   margin-bottom: 2rem;
   line-height: 1.7;
 }
