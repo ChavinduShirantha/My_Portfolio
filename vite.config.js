@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig(({ mode }) => ({
   plugins: [react()],
-  base: mode === 'production' ? 'https://chavindu-shirantha.web.app/' : './',
+  base: '/',
   define: {
     'import.meta.env.VITE_BASE_URL': JSON.stringify(
       mode === 'production'
