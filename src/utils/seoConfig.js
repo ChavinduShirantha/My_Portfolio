@@ -140,7 +140,12 @@ export const SEO_CONFIG = {
       '@type': 'Organization',
       name: 'Chavindu Shirantha',
       url: 'https://chavindu-shirantha.web.app/',
-      logo: 'https://chavindu-shirantha.web.app/images/logo.png',
+      logo: {
+        '@type': 'ImageObject',
+        url: 'https://chavindu-shirantha.web.app/profile_img.png',
+        width: 512,
+        height: 512
+      },
       contactPoint: {
         '@type': 'ContactPoint',
         telephone: '+94-70-4230389',
