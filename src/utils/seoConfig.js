@@ -2,18 +2,17 @@
 export const SEO_CONFIG = {
   // Basic Site Information
   site: {
-    name: 'Chavindu - Portfolio',
+    name: 'Chavindu Shirantha',
     title: 'Chavindu | Full Stack Developer & Web Developer',
-    description: 'Experienced Full Stack Developer and Web Develope creating innovative web applications and digital experiences. Specializing in React, Node.js, and modern web technologies.',
+    description: 'Chavindu Shirantha - Experienced Full Stack Developer and Web Developer from Sri Lanka. Specializing in React, Node.js, and modern web technologies.',
     url: 'https://chavindu-shirantha.web.app/',
     domain: 'chavindu-shirantha.web.app',
     author: 'Chavindu Shirantha',
     keywords: [
       'Full Stack Developer',
-      'UI/UX Designer',
+      'Web Developer',
       'React Developer',
       'Node.js Developer',
-      'Web Developer',
       'Frontend Developer',
       'Backend Developer',
       'JavaScript Developer',
@@ -21,7 +20,6 @@ export const SEO_CONFIG = {
       'Web Design',
       'Mobile App Development',
       'Responsive Design',
-      'User Experience',
       'Modern Web Technologies'
     ]
   },
@@ -35,7 +33,7 @@ export const SEO_CONFIG = {
 
   // Images for SEO
   images: {
-    ogImage: '/images/og-image.jpg', // 1200x630px recommended
+    ogImage: '/profile_img.png',
     logo: '/images/logo.png',
     favicon: '/favicon.ico',
     appleTouchIcon: '/images/apple-touch-icon.png' // 180x180px
@@ -57,9 +55,9 @@ export const SEO_CONFIG = {
   // Page-specific SEO data
   pages: {
     home: {
-      title: 'Chavindu | Full Stack Developer & UI/UX Designer',
-      description: 'Welcome to my portfolio! I\'m a passionate Full Stack Developer and UI/UX Designer with 3+ years of experience creating innovative digital solutions.',
-      keywords: ['portfolio', 'full stack developer', 'ui ux designer', 'web developer'],
+      title: 'Chavindu | Full Stack Developer & Web Developer',
+      description: 'Chavindu Shirantha - Experienced Full Stack Developer and Web Developer from Sri Lanka. Specializing in React, Node.js, and modern web technologies.',
+      keywords: ['portfolio', 'full stack developer', 'web developer', 'react developer', 'nodejs developer'],
       canonical: '/'
     },
     about: {
