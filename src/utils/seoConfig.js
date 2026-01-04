@@ -62,7 +62,7 @@ export const SEO_CONFIG = {
     },
     about: {
       title: 'About Me | Chavindu - Full Stack Developer',
-      description: 'Learn more about my journey as a Full Stack Developer and UI/UX Designer. Discover my skills, experience, and passion for creating amazing digital experiences.',
+      description: 'Learn more about my journey as a Full Stack Developer and Web Developer. Discover my skills, experience, and passion for creating amazing digital experiences.',
       keywords: ['about', 'experience', 'skills', 'background'],
       canonical: '/#about'
     },
