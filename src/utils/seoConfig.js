@@ -35,7 +35,7 @@ export const SEO_CONFIG = {
   images: {
     ogImage: '/profile_img.png',
     logo: '/images/logo.png',
-    favicon: '/favicon.ico',
+    favicon: '/src/assets/images/icons/profilefav.png',
     appleTouchIcon: '/images/apple-touch-icon.png' // 180x180px
   },
 
